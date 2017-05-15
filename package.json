@@ -4,6 +4,7 @@
   "description": "project brain games",
   "main": "index.js",
   "scripts": {
+    "babel-node": "babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/i-obr/project-lvl1-s98/issues"
   },
-  "homepage": "https://github.com/i-obr/project-lvl1-s98#readme"
+  "homepage": "https://github.com/i-obr/project-lvl1-s98#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
