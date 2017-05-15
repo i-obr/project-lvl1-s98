@@ -1,9 +1,14 @@
 {
-  "name": "brain-games",
+  "name": "brain-games-i_o",
   "version": "1.0.0",
   "description": "project brain games",
   "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "babel-node": "babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
