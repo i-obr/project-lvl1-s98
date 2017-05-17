@@ -4,16 +4,16 @@ const repeatCount = 3;
 
 const processGame = (game, rule) => {
   console.log('Welcome to the Brain Games!');
-  console.log(rule);
+  console.log(`${rule} \n`);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}! \n`);
 
   const repeatGame = (count) => {
-    const gameDate = game();
-    console.log(`Question: ${gameDate.condition}`);
+    const gameState = game();
+    console.log(`Question: ${gameState.num}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if (gameDate.correctAnswer === answer.toLowerCase()) {
+    if (gameState.correctAnswer === answer.toLowerCase()) {
       console.log('Correct!');
       if (count === 1) {
         console.log(`Congratulations, ${userName}!`);
@@ -21,7 +21,7 @@ const processGame = (game, rule) => {
       }
       repeatGame(count - 1);
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${gameDate.correctAnswer}'. Let's try again, ${userName}!`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${gameState.correctAnswer}'. Let's try again, ${userName}!`);
     }
   };
 
