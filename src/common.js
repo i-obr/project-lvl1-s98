@@ -1,3 +1,4 @@
-const getRandomNumber = (min, max) => Math.floor(Math.random() * max) + min;
+export const getRandomNumber = (min, max) => Math.floor(Math.random() * max) + min;
 
-export default getRandomNumber;
+export const findGcd = (a, b) => (b === 0 ? a : findGcd(b, (a % b)));
+
