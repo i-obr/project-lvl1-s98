@@ -17,7 +17,7 @@ What is the result of the expression?
 
 ## Instalation
 
-``` $ npm i brain-games-i-obr -g ```
+``` $ npm i brain-games-i_o -g ```
 
 ## Start brain-even:
 ``` brain-even ```
