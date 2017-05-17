@@ -7,12 +7,16 @@
 ## Games:
   - brain-even
   - brain-clac
+  - brain-gcd
 
 ## brain-even:
 Answer "yes" if number even otherwise answer "no".
 
 ## brain-calc:
 What is the result of the expression?
+
+## brain-gcd:
+Find the greatest common divisor of given numbers.
 
 
 ## Instalation
@@ -24,4 +28,7 @@ What is the result of the expression?
 
 ## Start brain-calc:
 ``` brain-calc ```
+
+## Start brain-gcd:
+``` brain-gcd ```
 
