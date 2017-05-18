@@ -5,23 +5,23 @@ import { getRandomNumber } from '../common';
 const rule = 'What is the result of the expression?';
 
 const brainCalcGame = () => {
-  const consExpression = cons(getRandomNumber(1, 11), getRandomNumber(1, 11));
+  const expression = cons(getRandomNumber(1, 11), getRandomNumber(1, 11));
   let num;
   let correctAnswer;
-  switch (String(getRandomNumber(1, 3))) {
-    case '1': {
-      num = `${car(consExpression)} + ${cdr(consExpression)}`;
-      correctAnswer = String(car(consExpression) + cdr(consExpression));
+  switch (getRandomNumber(1, 3)) {
+    case 1: {
+      num = `${car(expression)} + ${cdr(expression)}`;
+      correctAnswer = String(car(expression) + cdr(expression));
       break;
     }
-    case '2': {
-      num = `${car(consExpression)} - ${cdr(consExpression)}`;
-      correctAnswer = String(car(consExpression) - cdr(consExpression));
+    case 2: {
+      num = `${car(expression)} - ${cdr(expression)}`;
+      correctAnswer = String(car(expression) - cdr(expression));
       break;
     }
-    case '3': {
-      num = `${car(consExpression)} * ${cdr(consExpression)}`;
-      correctAnswer = String(car(consExpression) * cdr(consExpression));
+    case 3: {
+      num = `${car(expression)} * ${cdr(expression)}`;
+      correctAnswer = String(car(expression) * cdr(expression));
       break;
     }
     default: {
