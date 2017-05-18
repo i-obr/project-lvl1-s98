@@ -10,7 +10,7 @@ const processGame = (game, rule) => {
 
   const repeatGame = (count) => {
     const gameState = game();
-    console.log(`Question: ${gameState.num}`);
+    console.log(`Question: ${gameState.question}`);
     const answer = readlineSync.question('Your answer: ');
 
     if (gameState.correctAnswer === answer.toLowerCase()) {
