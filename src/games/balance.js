@@ -17,7 +17,7 @@ const brainBalanceGame = () => {
       balanceNumber = balanceNumber.replace(min, getBalance(min, max).min);
       return getBalanceNumber(balanceNumber);
     }
-    return balanceNumber;
+    return balanceNumber.split('').sort().join('');
   };
 
   const correctAnswer = getBalanceNumber(question);
