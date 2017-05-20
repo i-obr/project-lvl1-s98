@@ -9,33 +9,40 @@
   - brain-clac
   - brain-gcd
   - brain-balance
+  - brain-progression
 
-## brain-even:
+### brain-even:
 Answer "yes" if number even otherwise answer "no".
 
-## brain-calc:
+### brain-calc:
 What is the result of the expression?
 
-## brain-gcd:
+### brain-gcd:
 Find the greatest common divisor of given numbers.
 
-## brain-balance:
+### brain-balance:
 Balance the given number.
+
+### brain-progression:
+What number is missing in this progression?
 
 
 ## Instalation:
 
 ``` $ npm i brain-games-i_o -g ```
 
-## Start brain-even:
+### Start brain-even:
 ``` brain-even ```
 
-## Start brain-calc:
+### Start brain-calc:
 ``` brain-calc ```
 
-## Start brain-gcd:
+### Start brain-gcd:
 ``` brain-gcd ```
 
-## Start brain-balance:
+### Start brain-balance:
 ``` brain-balance ```
+
+### Start brain-progression:
+``` brain-progression ```
 
