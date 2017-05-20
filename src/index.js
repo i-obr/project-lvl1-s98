@@ -16,12 +16,12 @@ const processGame = (game, rule) => {
     if (gameState.correctAnswer === answer.toLowerCase()) {
       console.log('Correct!');
       if (count === 1) {
-        console.log(`Congratulations, ${userName}!`);
+        console.log(`Congratulations, ${userName}! \n`);
         return;
       }
       repeatGame(count - 1);
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${gameState.correctAnswer}'. Let's try again, ${userName}!`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${gameState.correctAnswer}'. Let's try again, ${userName}!\n`);
     }
   };
 
