@@ -8,6 +8,7 @@
   - brain-even
   - brain-clac
   - brain-gcd
+  - brain-balance
 
 ## brain-even:
 Answer "yes" if number even otherwise answer "no".
@@ -18,8 +19,11 @@ What is the result of the expression?
 ## brain-gcd:
 Find the greatest common divisor of given numbers.
 
+## brain-balance:
+Balance the given number.
 
-## Instalation
+
+## Instalation:
 
 ``` $ npm i brain-games-i_o -g ```
 
@@ -31,4 +35,7 @@ Find the greatest common divisor of given numbers.
 
 ## Start brain-gcd:
 ``` brain-gcd ```
+
+## Start brain-balance:
+``` brain-balance ```
 
