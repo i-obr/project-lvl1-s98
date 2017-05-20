@@ -1,4 +1,4 @@
-import processGame from '../';
+import processGame from '..';
 import { getRandomNumber, getBalance } from '../math';
 
 const rule = 'Balance the given number.';

@@ -1,5 +1,5 @@
 import { cons, car, cdr } from 'hexlet-pairs';
-import processGame from '../';
+import processGame from '..';
 import { getRandomNumber } from '../math';
 
 const rule = 'What is the result of the expression?';

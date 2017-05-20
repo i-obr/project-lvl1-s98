@@ -1,4 +1,4 @@
-import processGame from '../';
+import processGame from '..';
 import { getRandomNumber } from '../math';
 
 const rule = 'Answer "yes" if number even otherwise answer "no".';
